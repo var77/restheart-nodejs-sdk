@@ -3,7 +3,10 @@
 ### Usage
 
 ```
-yarn add 
+yarn add https://github.com/var77/restheart-nodejs-sdk.git
+```
+
+```
 const getDBClient = require('../src');
 
 const DBClient = getDBClient(process.env.RESTHEART_URL, process.env.DB_USERNAME, process.env.DB_PASSWORD);
