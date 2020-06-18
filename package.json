@@ -1,0 +1,18 @@
+{
+  "name": "restheart-nodejs-sdk",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Varik Matevosyan",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx mocha ./test"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.0.1"
+  }
+}
